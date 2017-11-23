@@ -1,5 +1,5 @@
 {
-  "CROSS_SCHEMA_TEST": {
+  "CROSS_SCHEMA_LIVE": {
     "object_owner" : {
       "schema_privileges":[ 
         { 
