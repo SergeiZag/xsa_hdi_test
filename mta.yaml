@@ -1,0 +1,27 @@
+_schema-version: '2.0'
+ID: test
+version: 0.0.1
+
+modules:
+ 
+
+ - name: db
+   type: hdb
+   path: db
+   requires:
+    - name: hdi-container
+      properties:
+       TARGET_CONTAINER: ~{hdi-container-name}
+    - name: CrossSchemaServiceSBO 
+
+
+resources:
+ - name: hdi-container
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
+
+ - name: CrossSchemaServiceSBO
+   type: org.cloudfoundry.existing-service
+   parameters:
+     service-name: CROSS_SCHEMA_TEST

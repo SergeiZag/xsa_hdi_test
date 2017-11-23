@@ -1,0 +1,20 @@
+{
+  "CROSS_SCHEMA_TEST": {
+    "object_owner" : {
+      "schema_privileges":[ 
+        { 
+          "reference":"SBODEMOUS",
+          "privileges_with_grant_option":["SELECT", "SELECT METADATA"]
+        }
+      ]
+    },
+    "application_user" : {
+      "schema_privileges":[ 
+        { 
+          "reference":"SBODEMOUS",
+          "privileges_with_grant_option":["SELECT", "SELECT METADATA"]
+        }
+      ]
+    }
+  }
+}
