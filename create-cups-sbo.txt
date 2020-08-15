@@ -1,1 +1,1 @@
-xs cups CROSS_SCHEMA_TEST -p "{""host"":""hanab1"",""port"":""30015"",""user"":""SYSTEM"",""password"":""password!!!"",""driver"":""com.sap.db.jdbc.Driver"",""tags"":[""hana""], ""schema"":""SBODEMOUS"" }"
+xs cups CROSS_SCHEMA_TEST -p "{""host"":""hanab1"",""port"":""30015"",""user"":""SYSTEM"",""password"":""password!!!"",""driver"":""com.sap.db.jdbc.Driver"",""tags"":[""hana""], ""schema"":""SBODEMOUS"" }" 
